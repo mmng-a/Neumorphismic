@@ -141,6 +141,7 @@
 		BAFB59A623CE6F6C00D8FE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAFB59A823CE6F6C00D8FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAFB59A923CE6F6C00D8FE04 /* Demo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo_macOS.entitlements; sourceTree = "<group>"; };
+		BAFB59AF23CE785500D8FE04 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = Neumorphismic/Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				BAFB599423CE6F4D00D8FE04 /* Default-568h@2x.png */,
+				BAFB59AF23CE785500D8FE04 /* Package.swift */,
 				BAFB594523CE5F1200D8FE04 /* Neumorphismic */,
 				BAFB591823CDB31F00D8FE04 /* Demo _iOS */,
 				BAFB594B23CE6D3400D8FE04 /* Demo_tvOS */,
