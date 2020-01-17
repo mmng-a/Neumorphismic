@@ -24,6 +24,6 @@ let package = Package(
         .testTarget(
             name: "NeumorphismicTests",
             dependencies: ["Neumorphismic"],
-            path: "Neumorphismic/Tests/Neumorphismic")
+            path: "Neumorphismic/Tests/NeumorphismicTests")
     ]
 )
