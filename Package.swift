@@ -20,10 +20,10 @@ let package = Package(
         .target(
             name: "Neumorphismic",
             dependencies: [],
-            path: "Neumorphismic/Sources"),
+            path: "Neumorphismic/Neumorphismic/Sources"),
         .testTarget(
             name: "NeumorphismicTests",
             dependencies: ["Neumorphismic"],
-            path: "Neumorphismic/Tests")
+            path: "Neumorphismic/Neumorphismic/Tests")
     ]
 )
