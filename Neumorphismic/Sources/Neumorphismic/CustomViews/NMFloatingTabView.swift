@@ -88,7 +88,7 @@ public struct NMFloatingTabView<Item, Content>: View
                     .lineLimit(1)
             }
         }
-        .foregroundColor(self.baseColor.nmPrimary(
+        .foregroundColor(self.baseColor.primary(
             self.selection == item ? 0.5 : 0.2
         ))
     }

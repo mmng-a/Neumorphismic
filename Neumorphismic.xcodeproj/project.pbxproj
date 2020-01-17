@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA9562E121DB8634004420A4 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9562E021DB8634004420A4 /* Color++.swift */; };
+		BA9562E321DB89F7004420A4 /* Neumorphismic in Frameworks */ = {isa = PBXBuildFile; productRef = BA9562E221DB89F7004420A4 /* Neumorphismic */; };
+		BAC2F47823CFDC34001F5CC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47523CFDC34001F5CC8 /* ContentView.swift */; };
+		BAC2F47923CFDC34001F5CC8 /* DemosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47623CFDC34001F5CC8 /* DemosView.swift */; };
+		BAC2F47A23CFDC34001F5CC8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47723CFDC34001F5CC8 /* SettingsView.swift */; };
 		BAFB591A23CDB31F00D8FE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB591923CDB31F00D8FE04 /* AppDelegate.swift */; };
 		BAFB591C23CDB31F00D8FE04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB591B23CDB31F00D8FE04 /* SceneDelegate.swift */; };
 		BAFB592023CDB32300D8FE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFB591F23CDB32300D8FE04 /* Assets.xcassets */; };
 		BAFB592323CDB32300D8FE04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFB592223CDB32300D8FE04 /* Preview Assets.xcassets */; };
 		BAFB592623CDB32300D8FE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFB592423CDB32300D8FE04 /* LaunchScreen.storyboard */; };
-		BAFB592F23CDB33D00D8FE04 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB592C23CDB33D00D8FE04 /* SettingsView.swift */; };
-		BAFB593023CDB33D00D8FE04 /* DemosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB592D23CDB33D00D8FE04 /* DemosView.swift */; };
-		BAFB593123CDB33D00D8FE04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB592E23CDB33D00D8FE04 /* ContentView.swift */; };
 		BAFB593423CDB34900D8FE04 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB593223CDB34900D8FE04 /* Model.swift */; };
 		BAFB593523CDB34900D8FE04 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB593323CDB34900D8FE04 /* Tab.swift */; };
 		BAFB593923CDB34F00D8FE04 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB593723CDB34F00D8FE04 /* String++.swift */; };
@@ -25,7 +27,6 @@
 		BAFB595423CE6D3800D8FE04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFB595323CE6D3800D8FE04 /* Preview Assets.xcassets */; };
 		BAFB595723CE6D3800D8FE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFB595523CE6D3800D8FE04 /* LaunchScreen.storyboard */; };
 		BAFB595D23CE6D5E00D8FE04 /* Neumorphismic in Frameworks */ = {isa = PBXBuildFile; productRef = BAFB595C23CE6D5E00D8FE04 /* Neumorphismic */; };
-		BAFB596123CE6D7700D8FE04 /* Neumorphismic in Frameworks */ = {isa = PBXBuildFile; productRef = BAFB596023CE6D7700D8FE04 /* Neumorphismic */; };
 		BAFB596823CE6E9400D8FE04 /* Demo_watchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BAFB596723CE6E9400D8FE04 /* Demo_watchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BAFB596E23CE6E9400D8FE04 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFB596C23CE6E9400D8FE04 /* Interface.storyboard */; };
 		BAFB597023CE6E9800D8FE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFB596F23CE6E9800D8FE04 /* Assets.xcassets */; };
@@ -98,6 +99,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA9562E021DB8634004420A4 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		BAC2F47523CFDC34001F5CC8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAC2F47623CFDC34001F5CC8 /* DemosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemosView.swift; sourceTree = "<group>"; };
+		BAC2F47723CFDC34001F5CC8 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BAFB591723CDB31F00D8FE04 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFB591923CDB31F00D8FE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFB591B23CDB31F00D8FE04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,22 +110,19 @@
 		BAFB592223CDB32300D8FE04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAFB592523CDB32300D8FE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFB592723CDB32300D8FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAFB592C23CDB33D00D8FE04 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		BAFB592D23CDB33D00D8FE04 /* DemosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemosView.swift; sourceTree = "<group>"; };
-		BAFB592E23CDB33D00D8FE04 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAFB593223CDB34900D8FE04 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BAFB593323CDB34900D8FE04 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		BAFB593723CDB34F00D8FE04 /* String++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String++.swift"; sourceTree = "<group>"; };
 		BAFB593823CDB34F00D8FE04 /* UIDevice++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice++.swift"; sourceTree = "<group>"; };
 		BAFB594523CE5F1200D8FE04 /* Neumorphismic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Neumorphismic; sourceTree = "<group>"; };
-		BAFB594A23CE6D3400D8FE04 /* Demo_tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFB594A23CE6D3400D8FE04 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFB594C23CE6D3400D8FE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFB594E23CE6D3400D8FE04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAFB595023CE6D3800D8FE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFB595323CE6D3800D8FE04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAFB595623CE6D3800D8FE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFB595823CE6D3800D8FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAFB596423CE6E9400D8FE04 /* Demo_watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFB596423CE6E9400D8FE04 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFB596723CE6E9400D8FE04 /* Demo_watchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo_watchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFB596D23CE6E9400D8FE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		BAFB596F23CE6E9800D8FE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFB596123CE6D7700D8FE04 /* Neumorphismic in Frameworks */,
+				BA9562E321DB89F7004420A4 /* Neumorphismic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +188,7 @@
 				BAFB599423CE6F4D00D8FE04 /* Default-568h@2x.png */,
 				BAFB59AF23CE785500D8FE04 /* Package.swift */,
 				BAFB594523CE5F1200D8FE04 /* Neumorphismic */,
-				BAFB591823CDB31F00D8FE04 /* Demo _iOS */,
+				BAFB591823CDB31F00D8FE04 /* Demo */,
 				BAFB594B23CE6D3400D8FE04 /* Demo_tvOS */,
 				BAFB596B23CE6E9400D8FE04 /* Demo_watchOS WatchKit App */,
 				BAFB597A23CE6E9800D8FE04 /* Demo_watchOS WatchKit Extension */,
@@ -200,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				BAFB591723CDB31F00D8FE04 /* Demo.app */,
-				BAFB594A23CE6D3400D8FE04 /* Demo_tvOS.app */,
-				BAFB596423CE6E9400D8FE04 /* Demo_watchOS.app */,
+				BAFB594A23CE6D3400D8FE04 /* Demo.app */,
+				BAFB596423CE6E9400D8FE04 /* Demo.app */,
 				BAFB596723CE6E9400D8FE04 /* Demo_watchOS WatchKit App.app */,
 				BAFB597623CE6E9800D8FE04 /* Demo_watchOS WatchKit Extension.appex */,
 				BAFB599A23CE6F6900D8FE04 /* Demo_macOS.app */,
@@ -209,7 +211,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAFB591823CDB31F00D8FE04 /* Demo _iOS */ = {
+		BAFB591823CDB31F00D8FE04 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				BAFB591923CDB31F00D8FE04 /* AppDelegate.swift */,
@@ -223,7 +225,7 @@
 				BAFB592723CDB32300D8FE04 /* Info.plist */,
 				BAFB592123CDB32300D8FE04 /* Preview Content */,
 			);
-			path = "Demo _iOS";
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		BAFB592123CDB32300D8FE04 /* Preview Content */ = {
@@ -237,9 +239,9 @@
 		BAFB592B23CDB33D00D8FE04 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BAFB592E23CDB33D00D8FE04 /* ContentView.swift */,
-				BAFB592D23CDB33D00D8FE04 /* DemosView.swift */,
-				BAFB592C23CDB33D00D8FE04 /* SettingsView.swift */,
+				BAC2F47523CFDC34001F5CC8 /* ContentView.swift */,
+				BAC2F47623CFDC34001F5CC8 /* DemosView.swift */,
+				BAC2F47723CFDC34001F5CC8 /* SettingsView.swift */,
 			);
 			name = Views;
 			path = ../../../Documents/Neumorphismic/Demo/Views;
@@ -250,6 +252,7 @@
 			children = (
 				BAFB593723CDB34F00D8FE04 /* String++.swift */,
 				BAFB593823CDB34F00D8FE04 /* UIDevice++.swift */,
+				BA9562E021DB8634004420A4 /* Color++.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -353,7 +356,7 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
-				BAFB596023CE6D7700D8FE04 /* Neumorphismic */,
+				BA9562E221DB89F7004420A4 /* Neumorphismic */,
 			);
 			productName = Demo;
 			productReference = BAFB591723CDB31F00D8FE04 /* Demo.app */;
@@ -376,7 +379,7 @@
 				BAFB595C23CE6D5E00D8FE04 /* Neumorphismic */,
 			);
 			productName = Demo_tvOS;
-			productReference = BAFB594A23CE6D3400D8FE04 /* Demo_tvOS.app */;
+			productReference = BAFB594A23CE6D3400D8FE04 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BAFB596323CE6E9400D8FE04 /* Demo_watchOS */ = {
@@ -393,7 +396,7 @@
 			);
 			name = Demo_watchOS;
 			productName = Demo_watchOS;
-			productReference = BAFB596423CE6E9400D8FE04 /* Demo_watchOS.app */;
+			productReference = BAFB596423CE6E9400D8FE04 /* Demo.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		BAFB596623CE6E9400D8FE04 /* Demo_watchOS WatchKit App */ = {
@@ -570,15 +573,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFB592F23CDB33D00D8FE04 /* SettingsView.swift in Sources */,
-				BAFB593123CDB33D00D8FE04 /* ContentView.swift in Sources */,
-				BAFB593023CDB33D00D8FE04 /* DemosView.swift in Sources */,
 				BAFB593423CDB34900D8FE04 /* Model.swift in Sources */,
 				BAFB591A23CDB31F00D8FE04 /* AppDelegate.swift in Sources */,
+				BAC2F47823CFDC34001F5CC8 /* ContentView.swift in Sources */,
+				BAC2F47A23CFDC34001F5CC8 /* SettingsView.swift in Sources */,
 				BAFB591C23CDB31F00D8FE04 /* SceneDelegate.swift in Sources */,
 				BAFB593A23CDB34F00D8FE04 /* UIDevice++.swift in Sources */,
+				BAC2F47923CFDC34001F5CC8 /* DemosView.swift in Sources */,
 				BAFB593923CDB34F00D8FE04 /* String++.swift in Sources */,
 				BAFB593523CDB34900D8FE04 /* Tab.swift in Sources */,
+				BA9562E121DB8634004420A4 /* Color++.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,14 +801,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7947K7LHD3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -818,14 +822,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7947K7LHD3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -845,7 +849,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Demo-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -867,7 +871,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Demo-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -938,7 +942,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -957,7 +961,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -969,7 +973,7 @@
 				DEVELOPMENT_TEAM = 7947K7LHD3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Demo-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -982,7 +986,7 @@
 				DEVELOPMENT_TEAM = 7947K7LHD3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Demo-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1104,11 +1108,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BAFB595C23CE6D5E00D8FE04 /* Neumorphismic */ = {
+		BA9562E221DB89F7004420A4 /* Neumorphismic */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Neumorphismic;
 		};
-		BAFB596023CE6D7700D8FE04 /* Neumorphismic */ = {
+		BAFB595C23CE6D5E00D8FE04 /* Neumorphismic */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Neumorphismic;
 		};
