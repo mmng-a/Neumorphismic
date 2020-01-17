@@ -19,9 +19,11 @@ let package = Package(
     targets: [
         .target(
             name: "Neumorphismic",
-            dependencies: []),
+            dependencies: [],
+            path: "Neumorphismic/Sources"),
         .testTarget(
             name: "NeumorphismicTests",
-            dependencies: ["Neumorphismic"]),
+            dependencies: ["Neumorphismic"],
+            path: "Neumorphismic/Tests")
     ]
 )
