@@ -16,7 +16,7 @@ This library make easy to made SwiftUI app with Neumorphism.
 ## Requirements
 
 - Xcode 11.0 or later
-- iOS 13 or tvOS 13 or macOS 10.15 or watchOS or later
+- iOS 13 or tvOS 13 or macOS 10.15 or watchOS 6 or later
 - Swift 5.1
 
 ## Installation
