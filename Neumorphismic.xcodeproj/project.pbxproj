@@ -13,6 +13,7 @@
 		BAC2F47823CFDC34001F5CC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47523CFDC34001F5CC8 /* ContentView.swift */; };
 		BAC2F47923CFDC34001F5CC8 /* DemosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47623CFDC34001F5CC8 /* DemosView.swift */; };
 		BAC2F47A23CFDC34001F5CC8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47723CFDC34001F5CC8 /* SettingsView.swift */; };
+		BAF4410A23D1B67F0064499E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BAF4410923D1B67E0064499E /* README.md */; };
 		BAFB591A23CDB31F00D8FE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB591923CDB31F00D8FE04 /* AppDelegate.swift */; };
 		BAFB591C23CDB31F00D8FE04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB591B23CDB31F00D8FE04 /* SceneDelegate.swift */; };
 		BAFB592023CDB32300D8FE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFB591F23CDB32300D8FE04 /* Assets.xcassets */; };
@@ -100,12 +101,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BA7AABF023D1B59400B8455F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Neumorphismic/README.md; sourceTree = "<group>"; };
 		BA7AABF123D1B5C200B8455F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BA9562E021DB8634004420A4 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
 		BAC2F47523CFDC34001F5CC8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAC2F47623CFDC34001F5CC8 /* DemosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemosView.swift; sourceTree = "<group>"; };
 		BAC2F47723CFDC34001F5CC8 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BAF4410723D1B6740064499E /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		BAF4410923D1B67E0064499E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BAFB591723CDB31F00D8FE04 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFB591923CDB31F00D8FE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFB591B23CDB31F00D8FE04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,7 +148,6 @@
 		BAFB59A623CE6F6C00D8FE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAFB59A823CE6F6C00D8FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAFB59A923CE6F6C00D8FE04 /* Demo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo_macOS.entitlements; sourceTree = "<group>"; };
-		BAFB59AF23CE785500D8FE04 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = Neumorphismic/Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,9 +189,9 @@
 		BAFB58CB23CDB28000D8FE04 = {
 			isa = PBXGroup;
 			children = (
+				BAF4410723D1B6740064499E /* Package.swift */,
 				BAFB599423CE6F4D00D8FE04 /* Default-568h@2x.png */,
-				BAFB59AF23CE785500D8FE04 /* Package.swift */,
-				BA7AABF023D1B59400B8455F /* README.md */,
+				BAF4410923D1B67E0064499E /* README.md */,
 				BA7AABF123D1B5C200B8455F /* LICENSE */,
 				BAFB594523CE5F1200D8FE04 /* Neumorphismic */,
 				BAFB591823CDB31F00D8FE04 /* Demo */,
@@ -519,6 +520,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF4410A23D1B67F0064499E /* README.md in Resources */,
 				BAFB592623CDB32300D8FE04 /* LaunchScreen.storyboard in Resources */,
 				BAFB599523CE6F4E00D8FE04 /* Default-568h@2x.png in Resources */,
 				BAFB592323CDB32300D8FE04 /* Preview Assets.xcassets in Resources */,
