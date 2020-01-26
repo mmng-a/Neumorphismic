@@ -34,14 +34,11 @@ public struct NMConvexModifier: ViewModifier {
     }
     
     public func body(content: Content) -> some View {
-        ZStack {
-            content
-                .shadow(color: darkShadowColor ?? baseColor.darker(0.18),
-                        radius: radius, x: x, y: y)
-            content
-                .shadow(color: lightShadowColor ?? baseColor.lighter(0.12),
-                        radius: radius, x: -x, y: -y)
-        }
+        content
+            .shadow(color: darkShadowColor ?? baseColor.darker(0.18),
+                    radius: radius, x: x, y: y)
+            .shadow(color: lightShadowColor ?? baseColor.lighter(0.12),
+                    radius: radius, x: -x, y: -y)
     }
 }
 
