@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BA7AABF223D1B5C200B8455F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA7AABF123D1B5C200B8455F /* LICENSE */; };
 		BA9562E121DB8634004420A4 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9562E021DB8634004420A4 /* Color++.swift */; };
-		BA9562E321DB89F7004420A4 /* Neumorphismic in Frameworks */ = {isa = PBXBuildFile; productRef = BA9562E221DB89F7004420A4 /* Neumorphismic */; };
 		BAC2F47823CFDC34001F5CC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47523CFDC34001F5CC8 /* ContentView.swift */; };
 		BAC2F47923CFDC34001F5CC8 /* DemosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47623CFDC34001F5CC8 /* DemosView.swift */; };
 		BAC2F47A23CFDC34001F5CC8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47723CFDC34001F5CC8 /* SettingsView.swift */; };
@@ -155,7 +154,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA9562E321DB89F7004420A4 /* Neumorphismic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +360,6 @@
 			);
 			name = Demo;
 			packageProductDependencies = (
-				BA9562E221DB89F7004420A4 /* Neumorphismic */,
 			);
 			productName = Demo;
 			productReference = BAFB591723CDB31F00D8FE04 /* Demo.app */;
@@ -1116,10 +1113,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BA9562E221DB89F7004420A4 /* Neumorphismic */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Neumorphismic;
-		};
 		BAFB595C23CE6D5E00D8FE04 /* Neumorphismic */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Neumorphismic;
