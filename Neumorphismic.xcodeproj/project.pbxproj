@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		BA7AABF223D1B5C200B8455F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA7AABF123D1B5C200B8455F /* LICENSE */; };
 		BA9562E121DB8634004420A4 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9562E021DB8634004420A4 /* Color++.swift */; };
 		BAC2F47823CFDC34001F5CC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F47523CFDC34001F5CC8 /* ContentView.swift */; };
@@ -46,7 +45,7 @@
 		BAFB59A423CE6F6C00D8FE04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFB59A323CE6F6C00D8FE04 /* Preview Assets.xcassets */; };
 		BAFB59A723CE6F6C00D8FE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFB59A523CE6F6C00D8FE04 /* Main.storyboard */; };
 		BAFB59AE23CE6F7900D8FE04 /* Neumorphismic in Frameworks */ = {isa = PBXBuildFile; productRef = BAFB59AD23CE6F7900D8FE04 /* Neumorphismic */; };
-=======
+
 		BA1D7DDE23E2CB200049431C /* ColorTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7DDD23E2CB200049431C /* ColorTransformerTests.swift */; };
 		BA1D7DE023E2CB200049431C /* Neumorphismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE9DC8923E1810E0056D4FA /* Neumorphismic.framework */; };
 		BAE9DF5723E190BD0056D4FA /* NMConvexModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9DF4C23E190BD0056D4FA /* NMConvexModifier.swift */; };
@@ -56,7 +55,7 @@
 		BAE9DF5B23E190BD0056D4FA /* NMHighlightableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9DF5223E190BD0056D4FA /* NMHighlightableButton.swift */; };
 		BAE9DF5C23E190BD0056D4FA /* NMFloatingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9DF5323E190BD0056D4FA /* NMFloatingTabView.swift */; };
 		BAE9DF5D23E190BD0056D4FA /* Neumorphismic.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE9DF5423E190BD0056D4FA /* Neumorphismic.h */; settings = {ATTRIBUTES = (Public, ); }; };
->>>>>>> test
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		BA7AABF123D1B5C200B8455F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BA9562E021DB8634004420A4 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
 		BAC2F47523CFDC34001F5CC8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,7 +135,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BAFB597323CE6E9800D8FE04 /* Frameworks */ = {
-=======
+
 		BA1D7DDB23E2CB200049431C /* NeumorphismicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorphismicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1D7DDD23E2CB200049431C /* ColorTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransformerTests.swift; sourceTree = "<group>"; };
 		BA1D7DDF23E2CB200049431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -154,7 +152,7 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BA1D7DD823E2CB200049431C /* Frameworks */ = {
->>>>>>> test
+
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,7 +173,6 @@
 		BA1D7DDC23E2CB200049431C /* NeumorphismicTests */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				BAF4410723D1B6740064499E /* Package.swift */,
 				BAFB599423CE6F4D00D8FE04 /* Default-568h@2x.png */,
 				BAF4410923D1B67E0064499E /* README.md */,
@@ -188,10 +185,10 @@
 				BAFB599B23CE6F6900D8FE04 /* Demo_macOS */,
 				BAFB58D623CDB28000D8FE04 /* Products */,
 				BAFB593B23CDB39000D8FE04 /* Frameworks */,
-=======
+
 				BA1D7DDD23E2CB200049431C /* ColorTransformerTests.swift */,
 				BA1D7DDF23E2CB200049431C /* Info.plist */,
->>>>>>> test
+
 			);
 			path = NeumorphismicTests;
 			sourceTree = "<group>";
@@ -247,7 +244,6 @@
 		};
 /* End PBXGroup section */
 
-<<<<<<< HEAD
 /* Begin PBXNativeTarget section */
 		BAFB591623CDB31F00D8FE04 /* Demo */ = {
 			isa = PBXNativeTarget;
@@ -317,14 +313,14 @@
 			);
 			dependencies = (
 				BAFB597923CE6E9800D8FE04 /* PBXTargetDependency */,
-=======
+
 /* Begin PBXHeadersBuildPhase section */
 		BAE9DC8423E1810E0056D4FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BAE9DF5D23E190BD0056D4FA /* Neumorphismic.h in Headers */,
->>>>>>> test
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,15 +406,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				BAF4410A23D1B67F0064499E /* README.md in Resources */,
 				BAFB592623CDB32300D8FE04 /* LaunchScreen.storyboard in Resources */,
 				BAFB599523CE6F4E00D8FE04 /* Default-568h@2x.png in Resources */,
 				BAFB592323CDB32300D8FE04 /* Preview Assets.xcassets in Resources */,
 				BAFB592023CDB32300D8FE04 /* Assets.xcassets in Resources */,
 				BA7AABF223D1B5C200B8455F /* LICENSE in Resources */,
-=======
->>>>>>> test
+
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +713,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-<<<<<<< HEAD
 
 /* Begin XCSwiftPackageProductDependency section */
 		BAFB595C23CE6D5E00D8FE04 /* Neumorphismic */ = {
@@ -734,8 +728,8 @@
 			productName = Neumorphismic;
 		};
 /* End XCSwiftPackageProductDependency section */
-=======
->>>>>>> test
+
+
 	};
 	rootObject = BAE9DC8023E1810E0056D4FA /* Project object */;
 }
