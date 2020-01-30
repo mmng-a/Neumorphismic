@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1D7DED23E2DABF0049431C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7DEC23E2DABF0049431C /* AppDelegate.swift */; };
+		BA1D7DF123E2DAC20049431C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7DF023E2DAC20049431C /* Assets.xcassets */; };
+		BA1D7DF423E2DAC20049431C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7DF323E2DAC20049431C /* Preview Assets.xcassets */; };
+		BA1D7DF723E2DAC20049431C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7DF523E2DAC20049431C /* LaunchScreen.storyboard */; };
+		BA1D7DFD23E2DAE80049431C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7DFC23E2DAE80049431C /* Default-568h@2x.png */; };
+		BA1D7DFF23E2DB220049431C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7DFE23E2DB220049431C /* ContentView.swift */; };
+		BA1D7E0623E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA1D7E0523E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA1D7E0C23E2DB5C0049431C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7E0A23E2DB5C0049431C /* Interface.storyboard */; };
+		BA1D7E0E23E2DB5E0049431C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7E0D23E2DB5E0049431C /* Assets.xcassets */; };
+		BA1D7E1523E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA1D7E1423E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA1D7E1C23E2DB5E0049431C /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7E1B23E2DB5E0049431C /* HostingController.swift */; };
+		BA1D7E1E23E2DB5F0049431C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7E1D23E2DB5E0049431C /* ExtensionDelegate.swift */; };
+		BA1D7E2023E2DB600049431C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7E1F23E2DB600049431C /* Assets.xcassets */; };
+		BA1D7E2323E2DB600049431C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7E2223E2DB600049431C /* Preview Assets.xcassets */; };
+		BA1D7E3123E2DB730049431C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7E3023E2DB730049431C /* ContentView.swift */; };
+		BA1D7E3923E2DB930049431C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7E3823E2DB930049431C /* AppDelegate.swift */; };
+		BA1D7E3D23E2DB960049431C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7E3C23E2DB960049431C /* Assets.xcassets */; };
+		BA1D7E4023E2DB960049431C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7E3F23E2DB960049431C /* Preview Assets.xcassets */; };
+		BA1D7E4323E2DB960049431C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1D7E4123E2DB960049431C /* Main.storyboard */; };
+		BA1D7E4A23E2DBA30049431C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7E4923E2DBA30049431C /* ContentView.swift */; };
+		BA1D7E4C23E2DBF20049431C /* Neumorphismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D7E4B23E2DBF20049431C /* Neumorphismic.framework */; };
+		BA1D7E4D23E2DBF20049431C /* Neumorphismic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D7E4B23E2DBF20049431C /* Neumorphismic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA1D7E5423E2DC020049431C /* Neumorphismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D7E5323E2DC020049431C /* Neumorphismic.framework */; };
+		BA1D7E5523E2DC020049431C /* Neumorphismic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D7E5323E2DC020049431C /* Neumorphismic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA4F8DCF23E2F4050007323C /* Neumorphismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4F8DCE23E2F4050007323C /* Neumorphismic.framework */; };
+		BA4F8DD023E2F4050007323C /* Neumorphismic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA4F8DCE23E2F4050007323C /* Neumorphismic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA9ADA6223E1A20600C98566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA6123E1A20600C98566 /* AppDelegate.swift */; };
+		BA9ADA6823E1A20800C98566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9ADA6723E1A20800C98566 /* Assets.xcassets */; };
+		BA9ADA6B23E1A20800C98566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9ADA6A23E1A20800C98566 /* Preview Assets.xcassets */; };
+		BA9ADA6E23E1A20800C98566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9ADA6C23E1A20800C98566 /* LaunchScreen.storyboard */; };
+		BA9ADA9423E1A2F400C98566 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA8A23E1A2F400C98566 /* Model.swift */; };
+		BA9ADA9523E1A2F400C98566 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA8B23E1A2F400C98566 /* Tab.swift */; };
+		BA9ADA9623E1A2F400C98566 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA8D23E1A2F400C98566 /* SettingsView.swift */; };
+		BA9ADA9723E1A2F400C98566 /* DemosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA8E23E1A2F400C98566 /* DemosView.swift */; };
+		BA9ADA9823E1A2F400C98566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA8F23E1A2F400C98566 /* ContentView.swift */; };
+		BA9ADA9923E1A2F400C98566 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA9123E1A2F400C98566 /* Color++.swift */; };
+		BA9ADA9A23E1A2F400C98566 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA9223E1A2F400C98566 /* String++.swift */; };
+		BA9ADA9B23E1A2F400C98566 /* UIDevice++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA9323E1A2F400C98566 /* UIDevice++.swift */; };
+		BA9ADA9D23E1A30B00C98566 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADA9C23E1A30B00C98566 /* SceneDelegate.swift */; };
+		BA9ADAA423E1A4EB00C98566 /* Neumorphismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9ADAA323E1A4EB00C98566 /* Neumorphismic.framework */; };
+		BA9ADAA523E1A4EB00C98566 /* Neumorphismic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA9ADAA323E1A4EB00C98566 /* Neumorphismic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1D7E0723E2DB5C0049431C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9ADA5623E1A20600C98566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1D7E0423E2DB5C0049431C;
+			remoteInfo = "Neumorphismic-Demo-watchOS WatchKit App";
+		};
+		BA1D7E1623E2DB5E0049431C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9ADA5623E1A20600C98566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1D7E1323E2DB5E0049431C;
+			remoteInfo = "Neumorphismic-Demo-watchOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA1D7E2823E2DB600049431C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA1D7E1523E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E2C23E2DB600049431C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BA1D7E0623E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E4E23E2DBF20049431C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA1D7E4D23E2DBF20049431C /* Neumorphismic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E5623E2DC020049431C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA1D7E5523E2DC020049431C /* Neumorphismic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4F8DD123E2F4050007323C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA4F8DD023E2F4050007323C /* Neumorphismic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9ADAA623E1A4EC00C98566 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA9ADAA523E1A4EB00C98566 /* Neumorphismic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA1D7DEA23E2DABF0049431C /* Neumorphismic-Demo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neumorphismic-Demo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D7DEC23E2DABF0049431C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA1D7DF023E2DAC20049431C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1D7DF323E2DAC20049431C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA1D7DF623E2DAC20049431C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA1D7DF823E2DAC20049431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1D7DFC23E2DAE80049431C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA1D7DFE23E2DB220049431C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA1D7E0223E2DB5B0049431C /* Neumorphismic-Demo-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neumorphismic-Demo-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D7E0523E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neumorphismic-Demo-watchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D7E0B23E2DB5C0049431C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BA1D7E0D23E2DB5E0049431C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1D7E0F23E2DB5E0049431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1D7E1423E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Neumorphismic-Demo-watchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D7E1B23E2DB5E0049431C /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		BA1D7E1D23E2DB5E0049431C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BA1D7E1F23E2DB600049431C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1D7E2223E2DB600049431C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA1D7E2423E2DB600049431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1D7E3023E2DB730049431C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA1D7E3623E2DB930049431C /* Neumorphismic-Demo-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neumorphismic-Demo-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D7E3823E2DB930049431C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA1D7E3C23E2DB960049431C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1D7E3F23E2DB960049431C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA1D7E4223E2DB960049431C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA1D7E4423E2DB960049431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1D7E4523E2DB960049431C /* Neumorphismic_Demo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neumorphismic_Demo_macOS.entitlements; sourceTree = "<group>"; };
+		BA1D7E4923E2DBA30049431C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA1D7E4B23E2DBF20049431C /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D7E4F23E2DBFB0049431C /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D7E5323E2DC020049431C /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4F8DCE23E2F4050007323C /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9ADA5E23E1A20600C98566 /* Neumorphismic-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neumorphismic-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9ADA6123E1A20600C98566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA9ADA6723E1A20800C98566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA9ADA6A23E1A20800C98566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA9ADA6D23E1A20800C98566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA9ADA6F23E1A20800C98566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9ADA8A23E1A2F400C98566 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BA9ADA8B23E1A2F400C98566 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		BA9ADA8D23E1A2F400C98566 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BA9ADA8E23E1A2F400C98566 /* DemosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemosView.swift; sourceTree = "<group>"; };
+		BA9ADA8F23E1A2F400C98566 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA9ADA9123E1A2F400C98566 /* Color++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		BA9ADA9223E1A2F400C98566 /* String++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String++.swift"; sourceTree = "<group>"; };
+		BA9ADA9323E1A2F400C98566 /* UIDevice++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice++.swift"; sourceTree = "<group>"; };
+		BA9ADA9C23E1A30B00C98566 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA9ADAA323E1A4EB00C98566 /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADD11CB23E2ED5200BC9C36 /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADD11D023E2ED6F00BC9C36 /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1D7DE723E2DABF0049431C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7E4C23E2DBF20049431C /* Neumorphismic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E1123E2DB5E0049431C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4F8DCF23E2F4050007323C /* Neumorphismic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E3323E2DB930049431C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7E5423E2DC020049431C /* Neumorphismic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9ADA5B23E1A20600C98566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9ADAA423E1A4EB00C98566 /* Neumorphismic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1D7DEB23E2DABF0049431C /* Neumorphismic-Demo-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D7DEC23E2DABF0049431C /* AppDelegate.swift */,
+				BA1D7DFE23E2DB220049431C /* ContentView.swift */,
+				BA1D7DF023E2DAC20049431C /* Assets.xcassets */,
+				BA1D7DF523E2DAC20049431C /* LaunchScreen.storyboard */,
+				BA1D7DF823E2DAC20049431C /* Info.plist */,
+				BA1D7DF223E2DAC20049431C /* Preview Content */,
+			);
+			path = "Neumorphismic-Demo-tvOS";
+			sourceTree = "<group>";
+		};
+		BA1D7DF223E2DAC20049431C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D7DF323E2DAC20049431C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA1D7E0923E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D7E0A23E2DB5C0049431C /* Interface.storyboard */,
+				BA1D7E0D23E2DB5E0049431C /* Assets.xcassets */,
+				BA1D7E0F23E2DB5E0049431C /* Info.plist */,
+			);
+			path = "Neumorphismic-Demo-watchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		BA1D7E1823E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D7E1B23E2DB5E0049431C /* HostingController.swift */,
+				BA1D7E1D23E2DB5E0049431C /* ExtensionDelegate.swift */,
+				BA1D7E3023E2DB730049431C /* ContentView.swift */,
+				BA1D7E1F23E2DB600049431C /* Assets.xcassets */,
+				BA1D7E2423E2DB600049431C /* Info.plist */,
+				BA1D7E2123E2DB600049431C /* Preview Content */,
+			);
+			path = "Neumorphismic-Demo-watchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BA1D7E2123E2DB600049431C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D7E2223E2DB600049431C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA1D7E3723E2DB930049431C /* Neumorphismic-Demo-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D7E3823E2DB930049431C /* AppDelegate.swift */,
+				BA1D7E4923E2DBA30049431C /* ContentView.swift */,
+				BA1D7E3C23E2DB960049431C /* Assets.xcassets */,
+				BA1D7E4123E2DB960049431C /* Main.storyboard */,
+				BA1D7E4423E2DB960049431C /* Info.plist */,
+				BA1D7E4523E2DB960049431C /* Neumorphismic_Demo_macOS.entitlements */,
+				BA1D7E3E23E2DB960049431C /* Preview Content */,
+			);
+			path = "Neumorphismic-Demo-macOS";
+			sourceTree = "<group>";
+		};
+		BA1D7E3E23E2DB960049431C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D7E3F23E2DB960049431C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA9ADA5523E1A20600C98566 = {
+			isa = PBXGroup;
+			children = (
+				BA1D7DFC23E2DAE80049431C /* Default-568h@2x.png */,
+				BA9ADA6023E1A20600C98566 /* Neumorphismic-Demo */,
+				BA1D7DEB23E2DABF0049431C /* Neumorphismic-Demo-tvOS */,
+				BA1D7E0923E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App */,
+				BA1D7E1823E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension */,
+				BA1D7E3723E2DB930049431C /* Neumorphismic-Demo-macOS */,
+				BA9ADA5F23E1A20600C98566 /* Products */,
+				BA9ADA9E23E1A35500C98566 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9ADA5F23E1A20600C98566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9ADA5E23E1A20600C98566 /* Neumorphismic-Demo.app */,
+				BA1D7DEA23E2DABF0049431C /* Neumorphismic-Demo-tvOS.app */,
+				BA1D7E0223E2DB5B0049431C /* Neumorphismic-Demo-watchOS.app */,
+				BA1D7E0523E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App.app */,
+				BA1D7E1423E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension.appex */,
+				BA1D7E3623E2DB930049431C /* Neumorphismic-Demo-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9ADA6023E1A20600C98566 /* Neumorphismic-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BA9ADA6123E1A20600C98566 /* AppDelegate.swift */,
+				BA9ADA9C23E1A30B00C98566 /* SceneDelegate.swift */,
+				BA9ADA8C23E1A2F400C98566 /* Views */,
+				BA9ADA8923E1A2F400C98566 /* Model */,
+				BA9ADA9023E1A2F400C98566 /* Extensions */,
+				BA9ADA6723E1A20800C98566 /* Assets.xcassets */,
+				BA9ADA6C23E1A20800C98566 /* LaunchScreen.storyboard */,
+				BA9ADA6F23E1A20800C98566 /* Info.plist */,
+				BA9ADA6923E1A20800C98566 /* Preview Content */,
+			);
+			path = "Neumorphismic-Demo";
+			sourceTree = "<group>";
+		};
+		BA9ADA6923E1A20800C98566 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA9ADA6A23E1A20800C98566 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA9ADA8923E1A2F400C98566 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA9ADA8A23E1A2F400C98566 /* Model.swift */,
+				BA9ADA8B23E1A2F400C98566 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA9ADA8C23E1A2F400C98566 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA9ADA8D23E1A2F400C98566 /* SettingsView.swift */,
+				BA9ADA8E23E1A2F400C98566 /* DemosView.swift */,
+				BA9ADA8F23E1A2F400C98566 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA9ADA9023E1A2F400C98566 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA9ADA9123E1A2F400C98566 /* Color++.swift */,
+				BA9ADA9223E1A2F400C98566 /* String++.swift */,
+				BA9ADA9323E1A2F400C98566 /* UIDevice++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA9ADA9E23E1A35500C98566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F8DCE23E2F4050007323C /* Neumorphismic.framework */,
+				BADD11D023E2ED6F00BC9C36 /* Neumorphismic.framework */,
+				BADD11CB23E2ED5200BC9C36 /* Neumorphismic.framework */,
+				BA1D7E5323E2DC020049431C /* Neumorphismic.framework */,
+				BA1D7E4F23E2DBFB0049431C /* Neumorphismic.framework */,
+				BA1D7E4B23E2DBF20049431C /* Neumorphismic.framework */,
+				BA9ADAA323E1A4EB00C98566 /* Neumorphismic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1D7DE923E2DABF0049431C /* Neumorphismic-Demo-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1D7DFB23E2DAC20049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-tvOS" */;
+			buildPhases = (
+				BA1D7DE623E2DABF0049431C /* Sources */,
+				BA1D7DE723E2DABF0049431C /* Frameworks */,
+				BA1D7DE823E2DABF0049431C /* Resources */,
+				BA1D7E4E23E2DBF20049431C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neumorphismic-Demo-tvOS";
+			productName = "Neumorphismic-Demo-tvOS";
+			productReference = BA1D7DEA23E2DABF0049431C /* Neumorphismic-Demo-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA1D7E0123E2DB5B0049431C /* Neumorphismic-Demo-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1D7E2D23E2DB600049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-watchOS" */;
+			buildPhases = (
+				BA1D7E0023E2DB5B0049431C /* Resources */,
+				BA1D7E2C23E2DB600049431C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1D7E0823E2DB5C0049431C /* PBXTargetDependency */,
+			);
+			name = "Neumorphismic-Demo-watchOS";
+			productName = "Neumorphismic-Demo-watchOS";
+			productReference = BA1D7E0223E2DB5B0049431C /* Neumorphismic-Demo-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BA1D7E0423E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1D7E2923E2DB600049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-watchOS WatchKit App" */;
+			buildPhases = (
+				BA1D7E0323E2DB5C0049431C /* Resources */,
+				BA1D7E2823E2DB600049431C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1D7E1723E2DB5E0049431C /* PBXTargetDependency */,
+			);
+			name = "Neumorphismic-Demo-watchOS WatchKit App";
+			productName = "Neumorphismic-Demo-watchOS WatchKit App";
+			productReference = BA1D7E0523E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BA1D7E1323E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1D7E2523E2DB600049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-watchOS WatchKit Extension" */;
+			buildPhases = (
+				BA1D7E1023E2DB5E0049431C /* Sources */,
+				BA1D7E1123E2DB5E0049431C /* Frameworks */,
+				BA1D7E1223E2DB5E0049431C /* Resources */,
+				BA4F8DD123E2F4050007323C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neumorphismic-Demo-watchOS WatchKit Extension";
+			productName = "Neumorphismic-Demo-watchOS WatchKit Extension";
+			productReference = BA1D7E1423E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		BA1D7E3523E2DB930049431C /* Neumorphismic-Demo-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1D7E4623E2DB960049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-macOS" */;
+			buildPhases = (
+				BA1D7E3223E2DB930049431C /* Sources */,
+				BA1D7E3323E2DB930049431C /* Frameworks */,
+				BA1D7E3423E2DB930049431C /* Resources */,
+				BA1D7E5623E2DC020049431C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neumorphismic-Demo-macOS";
+			productName = "Neumorphismic-Demo-macOS";
+			productReference = BA1D7E3623E2DB930049431C /* Neumorphismic-Demo-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA9ADA5D23E1A20600C98566 /* Neumorphismic-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9ADA7223E1A20800C98566 /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo" */;
+			buildPhases = (
+				BA9ADA5A23E1A20600C98566 /* Sources */,
+				BA9ADA5B23E1A20600C98566 /* Frameworks */,
+				BA9ADA5C23E1A20600C98566 /* Resources */,
+				BA9ADAA623E1A4EC00C98566 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neumorphismic-Demo";
+			productName = "Neumorphismic-Demo";
+			productReference = BA9ADA5E23E1A20600C98566 /* Neumorphismic-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9ADA5623E1A20600C98566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Masashi Aso";
+				TargetAttributes = {
+					BA1D7DE923E2DABF0049431C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BA1D7E0123E2DB5B0049431C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BA1D7E0423E2DB5C0049431C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BA1D7E1323E2DB5E0049431C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BA1D7E3523E2DB930049431C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BA9ADA5D23E1A20600C98566 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = BA9ADA5923E1A20600C98566 /* Build configuration list for PBXProject "Neumorphismic-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA9ADA5523E1A20600C98566;
+			productRefGroup = BA9ADA5F23E1A20600C98566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9ADA5D23E1A20600C98566 /* Neumorphismic-Demo */,
+				BA1D7DE923E2DABF0049431C /* Neumorphismic-Demo-tvOS */,
+				BA1D7E0123E2DB5B0049431C /* Neumorphismic-Demo-watchOS */,
+				BA1D7E0423E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App */,
+				BA1D7E1323E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension */,
+				BA1D7E3523E2DB930049431C /* Neumorphismic-Demo-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1D7DE823E2DABF0049431C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7DF723E2DAC20049431C /* LaunchScreen.storyboard in Resources */,
+				BA1D7DF423E2DAC20049431C /* Preview Assets.xcassets in Resources */,
+				BA1D7DF123E2DAC20049431C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E0023E2DB5B0049431C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E0323E2DB5C0049431C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7E0E23E2DB5E0049431C /* Assets.xcassets in Resources */,
+				BA1D7E0C23E2DB5C0049431C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E1223E2DB5E0049431C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7E2323E2DB600049431C /* Preview Assets.xcassets in Resources */,
+				BA1D7E2023E2DB600049431C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E3423E2DB930049431C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7E4323E2DB960049431C /* Main.storyboard in Resources */,
+				BA1D7E4023E2DB960049431C /* Preview Assets.xcassets in Resources */,
+				BA1D7E3D23E2DB960049431C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9ADA5C23E1A20600C98566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9ADA6E23E1A20800C98566 /* LaunchScreen.storyboard in Resources */,
+				BA1D7DFD23E2DAE80049431C /* Default-568h@2x.png in Resources */,
+				BA9ADA6B23E1A20800C98566 /* Preview Assets.xcassets in Resources */,
+				BA9ADA6823E1A20800C98566 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1D7DE623E2DABF0049431C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7DFF23E2DB220049431C /* ContentView.swift in Sources */,
+				BA1D7DED23E2DABF0049431C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E1023E2DB5E0049431C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7E1C23E2DB5E0049431C /* HostingController.swift in Sources */,
+				BA1D7E1E23E2DB5F0049431C /* ExtensionDelegate.swift in Sources */,
+				BA1D7E3123E2DB730049431C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1D7E3223E2DB930049431C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1D7E4A23E2DBA30049431C /* ContentView.swift in Sources */,
+				BA1D7E3923E2DB930049431C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9ADA5A23E1A20600C98566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9ADA9523E1A2F400C98566 /* Tab.swift in Sources */,
+				BA9ADA9723E1A2F400C98566 /* DemosView.swift in Sources */,
+				BA9ADA9823E1A2F400C98566 /* ContentView.swift in Sources */,
+				BA9ADA9623E1A2F400C98566 /* SettingsView.swift in Sources */,
+				BA9ADA9923E1A2F400C98566 /* Color++.swift in Sources */,
+				BA9ADA9D23E1A30B00C98566 /* SceneDelegate.swift in Sources */,
+				BA9ADA6223E1A20600C98566 /* AppDelegate.swift in Sources */,
+				BA9ADA9B23E1A2F400C98566 /* UIDevice++.swift in Sources */,
+				BA9ADA9A23E1A2F400C98566 /* String++.swift in Sources */,
+				BA9ADA9423E1A2F400C98566 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA1D7E0823E2DB5C0049431C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1D7E0423E2DB5C0049431C /* Neumorphismic-Demo-watchOS WatchKit App */;
+			targetProxy = BA1D7E0723E2DB5C0049431C /* PBXContainerItemProxy */;
+		};
+		BA1D7E1723E2DB5E0049431C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1D7E1323E2DB5E0049431C /* Neumorphismic-Demo-watchOS WatchKit Extension */;
+			targetProxy = BA1D7E1623E2DB5E0049431C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA1D7DF523E2DAC20049431C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1D7DF623E2DAC20049431C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BA1D7E0A23E2DB5C0049431C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1D7E0B23E2DB5C0049431C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		BA1D7E4123E2DB960049431C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1D7E4223E2DB960049431C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA9ADA6C23E1A20800C98566 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9ADA6D23E1A20800C98566 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA1D7DF923E2DAC20049431C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorphismic-Demo-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		BA1D7DFA23E2DAC20049431C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo-tvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorphismic-Demo-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Release;
+		};
+		BA1D7E2623E2DB600049431C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo-watchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorphismic-Demo-watchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-watchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		BA1D7E2723E2DB600049431C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo-watchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorphismic-Demo-watchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-watchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		BA1D7E2A23E2DB600049431C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				IBSC_MODULE = Neumorphismic_Demo_watchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "Neumorphismic-Demo-watchOS WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		BA1D7E2B23E2DB600049431C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				IBSC_MODULE = Neumorphismic_Demo_watchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "Neumorphismic-Demo-watchOS WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		BA1D7E2E23E2DB600049431C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA1D7E2F23E2DB600049431C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA1D7E4723E2DB960049431C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Neumorphismic-Demo-macOS/Neumorphismic_Demo_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorphismic-Demo-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA1D7E4823E2DB960049431C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Neumorphismic-Demo-macOS/Neumorphismic_Demo_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorphismic-Demo-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA9ADA7023E1A20800C98566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA9ADA7123E1A20800C98566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA9ADA7323E1A20800C98566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Neumorphismic-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA9ADA7423E1A20800C98566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorphismic-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7947K7LHD3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Neumorphismic-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MasasaM-shi.Neumorphismic-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1D7DFB23E2DAC20049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1D7DF923E2DAC20049431C /* Debug */,
+				BA1D7DFA23E2DAC20049431C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1D7E2523E2DB600049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-watchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1D7E2623E2DB600049431C /* Debug */,
+				BA1D7E2723E2DB600049431C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1D7E2923E2DB600049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-watchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1D7E2A23E2DB600049431C /* Debug */,
+				BA1D7E2B23E2DB600049431C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1D7E2D23E2DB600049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1D7E2E23E2DB600049431C /* Debug */,
+				BA1D7E2F23E2DB600049431C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1D7E4623E2DB960049431C /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1D7E4723E2DB960049431C /* Debug */,
+				BA1D7E4823E2DB960049431C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9ADA5923E1A20600C98566 /* Build configuration list for PBXProject "Neumorphismic-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9ADA7023E1A20800C98566 /* Debug */,
+				BA9ADA7123E1A20800C98566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9ADA7223E1A20800C98566 /* Build configuration list for PBXNativeTarget "Neumorphismic-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9ADA7323E1A20800C98566 /* Debug */,
+				BA9ADA7423E1A20800C98566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA9ADA5623E1A20600C98566 /* Project object */;
+}
