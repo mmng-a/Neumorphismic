@@ -4,21 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Demo.xcscheme_^#shared#^_</key>
+		<key>Neumorphismic.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>Demo_macOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>Demo_tvOS.xcscheme_^#shared#^_</key>
+=======
+		<key>NeumorphismicTests.xcscheme_^#shared#^_</key>
+>>>>>>> test
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>Demo_watchOS WatchKit App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -29,6 +34,8 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+=======
+>>>>>>> test
 	</dict>
 </dict>
 </plist>

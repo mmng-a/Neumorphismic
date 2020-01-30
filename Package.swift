@@ -18,9 +18,14 @@ let package = Package(
     ],
     targets: [
         .target(
+<<<<<<< HEAD:Package.swift
             name: "Neumorphismic",
             dependencies: [],
             path: "Neumorphismic/Sources/Neumorphismic"),
+=======
+            name: "Sources",
+            dependencies: []),
+>>>>>>> test:Package.swift
         .testTarget(
             name: "NeumorphismicTests",
             dependencies: ["Neumorphismic"],

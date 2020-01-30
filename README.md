@@ -16,7 +16,11 @@ This library make easy to made SwiftUI app with Neumorphism.
 ## Requirements
 
 - Xcode 11.0 or later
+<<<<<<< HEAD
 - iOS 13 or tvOS 13 or macOS 10.15 or watchOS 6 or later
+=======
+- iOS 13 or tvOS 13 or macOS 10.15 or watchOS 6.0 or later
+>>>>>>> test
 - Swift 5.1
 
 ## Installation
@@ -48,21 +52,7 @@ struct ContentView: View {
     }
 }
 ```
-
-If you want modify `NMConvexModifier` to components using `Binding`, you must modify to it's background view.
-
-```swift
-TextField("C1D2EB", text: $model.userInput)
-    .foregroundColor(baseColor.nmPrimary(1))
-    .padding(5)
-    .background(
-        RoundedRectangle(cornerRadius: 5, style: .continuous)
-            .fill(baseColor)
-            .modifier(NMConvexModifier(radius: 9))
-    )
-```
-
-And when you modify to other components, you should modify too because for performance. There is detail of usage in `Demo_iOS`.   
+There is detail of usage in `Demo_iOS`.   
 
 ### FloatingTabView
 
