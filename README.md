@@ -29,10 +29,16 @@ Open your Xcode project, select `File` -> `Swift Packages` -> `Add Package Depen
 
 ### Simple way
 
-```swift
+```swift:SceneDelegate.swift
+let contentView = ContentView()
+    .environment(\.nmBaseColor, Color(hex: "C1D2EB")
+```
+
+
+```swift:ContentView.swift
 struct ContentView: View {
-    
-    let baseColor = Color(hex: "C1D2EB")
+
+    @Environment(\.nmBaseColor) var baseColor: Color
     
     var body: some View {
         ZStack {
@@ -43,7 +49,6 @@ struct ContentView: View {
                 .fill(baseColor)
                 .frame(width: 300, height: 200)
                 .modifier(NMConvexModifier())
-                .environment(\.nmBaseColor, baseColor)
         }
     }
 }
@@ -52,9 +57,9 @@ There is detail of usage in `Demo_iOS`.
 
 ### FloatingTabView
 
-Neumorphismic contains `FloatingTabView`.
+You can use Neumorphismic TabView.
 
-```swift
+```swift:Tab.swift
 enum Tab: String, Hashable, CaseIterable {
     
     case demo = "Demo"
@@ -77,7 +82,8 @@ enum Tab: String, Hashable, CaseIterable {
         }
     }
 }
-
+```
+```swift:ContentView.swift
 struct ContentView: View {
     
     @State var selection: Tab = .demo
@@ -85,8 +91,6 @@ struct ContentView: View {
     var body: some View {
         NMFloatingTabView(
             selection: $selection,
-            verticalPadding: 34,
-            horizontalPadding: UIDevice.current.hasRoundedDisplay ? 0 : 34,
             labelText: { tab in tab.rawValue },
             labelImage: { tab in tab.image() }
         ) { tab in
@@ -95,6 +99,28 @@ struct ContentView: View {
         .environment(\.nmBaseColor, Color(hex: "C1D2EB"))
     }
 }
+```
 
+### HighlightableButton
+
+If you want to change appearance when button highlighted, you can use it.
+
+```swift:ContentView.swift
+struct ContentView: View {
+    @State var isSelected = false
+    var body: some View {
+        NMHighlightableButton(action: {
+            self.isSelected.toggle()
+        }) { isH in
+            Image(systemName: self.isSelected ? "house.fill" : "house")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(.blue)
+                .opacity(isH ? 0.6 : 1)
+                .frame(width: isH ? 80 : 100,
+                       height: isH ? 80 : 100)
+        }
+    }
+}
 ```
 
