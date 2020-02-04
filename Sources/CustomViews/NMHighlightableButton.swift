@@ -17,6 +17,10 @@ public struct NMHighlightableButton<Label>: View where Label: View {
     private let action: () -> Void
     private let label: (Bool) -> Label
     
+    /// You can change appearance with wether the button is highlighted
+    /// - Parameters:
+    ///   - action: It's same as standard `Button`
+    ///   - label: It's same as standard `Button`
     public init(
         action: @escaping () -> Void,
         label: @escaping (Bool) -> Label

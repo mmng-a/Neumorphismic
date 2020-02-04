@@ -16,6 +16,7 @@ public struct NMBaseColorKey: EnvironmentKey {
 
 @available(iOS 13, OSX 10.15, watchOS 6, tvOS 13, *)
 public extension EnvironmentValues {
+    /// Convey Neumophismic base color to child views
     var nmBaseColor: Color {
         get { self[NMBaseColorKey.self] }
         set { self[NMBaseColorKey.self] = newValue }

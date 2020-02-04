@@ -21,12 +21,20 @@ public struct NMConvexModifier: ViewModifier {
     private let x: CGFloat
     private let y: CGFloat
     
+    /// View  conform to Neumorphism
+    /// You can use this by `.modifier(NMConvexModifier())` or `.nmConvexed()`
+    /// - Parameters:
+    ///   - bottomRightShadowColor: default is 18% darker color from `nmBaseColor`
+    ///   - topLeftShadowColor: default is 12% lighter color from `nmBaseColor`
+    ///   - radius: shadow's radius. default is `16`
+    ///   - x: horizontal distance between View to shadow. default is `9`
+    ///   - y: vertical distance between View to shadow. default is `9`
     public init(
-        darkShadowColor: Color? = nil, lightShadowColor: Color? = nil,
+        bottomRightShadowColor: Color? = nil, topLeftShadowColor: Color? = nil,
         radius: CGFloat = 16, x: CGFloat = 9, y: CGFloat = 9
     ) {
-        self.darkShadowColor = darkShadowColor
-        self.lightShadowColor = lightShadowColor
+        self.darkShadowColor = bottomRightShadowColor
+        self.lightShadowColor = topLeftShadowColor
 
         self.radius = radius
         self.x = x

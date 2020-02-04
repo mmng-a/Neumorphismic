@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA1D7DDE23E2CB200049431C /* ColorTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D7DDD23E2CB200049431C /* ColorTransformerTests.swift */; };
 		BA1D7DE023E2CB200049431C /* Neumorphismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE9DC8923E1810E0056D4FA /* Neumorphismic.framework */; };
+		BAAE70F423E9842F00C93CC1 /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE70F323E9842F00C93CC1 /* View++.swift */; };
 		BAE9DF5723E190BD0056D4FA /* NMConvexModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9DF4C23E190BD0056D4FA /* NMConvexModifier.swift */; };
 		BAE9DF5823E190BD0056D4FA /* NMBaseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9DF4D23E190BD0056D4FA /* NMBaseColor.swift */; };
 		BAE9DF5923E190BD0056D4FA /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9DF4F23E190BD0056D4FA /* Color++.swift */; };
@@ -32,6 +33,7 @@
 		BA1D7DDB23E2CB200049431C /* NeumorphismicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorphismicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1D7DDD23E2CB200049431C /* ColorTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransformerTests.swift; sourceTree = "<group>"; };
 		BA1D7DDF23E2CB200049431C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAE70F323E9842F00C93CC1 /* View++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
 		BAE9DC8923E1810E0056D4FA /* Neumorphismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neumorphismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE9DF4C23E190BD0056D4FA /* NMConvexModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMConvexModifier.swift; sourceTree = "<group>"; };
 		BAE9DF4D23E190BD0056D4FA /* NMBaseColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMBaseColor.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				BAE9DF4F23E190BD0056D4FA /* Color++.swift */,
 				BAE9DF5023E190BD0056D4FA /* ColorTransformer.swift */,
+				BAAE70F323E9842F00C93CC1 /* View++.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				BAE9DF5C23E190BD0056D4FA /* NMFloatingTabView.swift in Sources */,
 				BAE9DF5923E190BD0056D4FA /* Color++.swift in Sources */,
 				BAE9DF5823E190BD0056D4FA /* NMBaseColor.swift in Sources */,
+				BAAE70F423E9842F00C93CC1 /* View++.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,15 @@ public struct NMFloatingTabView<Item, Content>: View
     private let verticalPadding: CGFloat
     private let horizontalPadding: CGFloat
     
+    /// Neumorphismic Floating Tab
+    /// it allow 4 tabs.
+    /// - Parameters:
+    ///   - selection: Bind to selection enum
+    ///   - verticalPadding: Left and right padding. 
+    ///   - horizontalPadding: Default is `0`, it's good for devices that has rounded display. But for iPhone 8, iPad Air...etc, You should set a value as `verticalPadding`
+    ///   - labelText: Tab's description. If it's `nil`, `labelImage` will show center of tab.
+    ///   - labelImage: Tab's image.
+    ///   - content: Tab's content view.
     public init(
         selection: Binding<Item>,
         verticalPadding: CGFloat = 34,
