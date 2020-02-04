@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-extension View {
+public extension View {
     
     
     /// View  conform to Neumorphism
